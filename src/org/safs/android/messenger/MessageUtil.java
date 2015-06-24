@@ -15,8 +15,7 @@ import android.os.Parcelable;
  *   <br>	APR 25, 2013	(LeiWang)	Add some methods to assist handling message of big size.
  */
 public class MessageUtil extends org.safs.sockets.Message{
-
-	public static final int ID_SERVER_TEST       	= 10000;	
+	
 	/** Server: the service is shutting down abnormally and will not be available. */
 	public static final int ID_SERVER_SHUTDOWN       = 0;	
 	/** Client: Register the local app client. */
